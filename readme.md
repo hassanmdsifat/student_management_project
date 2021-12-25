@@ -18,6 +18,8 @@ The first step focuses on Django setup and models.
 
 Total Time Taken: 50 minutes
 
+####N.B:  Added the .env file in git-repository as it is an interview project. Never include .env file in repository as it includes sensitive information
+
 ## Step 2
 
 This second step focuses on Django Rest Framework (DRF).
