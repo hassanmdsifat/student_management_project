@@ -8,6 +8,10 @@ django = "===3.2"
 python-dotenv = "==0.15.0"
 install = "*"
 psycopg2-binary = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+faker = "*"
 
 [dev-packages]
 
