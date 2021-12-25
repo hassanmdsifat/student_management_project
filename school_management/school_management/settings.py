@@ -32,6 +32,7 @@ LOCAL_APPS = [
     'school.apps.SchoolConfig',
     'domain',
     'package',
+    'nested_router_app.apps.NestedRouterAppConfig',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS
@@ -110,5 +111,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
-    'PAGE_SIZE': 50
+    'PAGE_SIZE': 10
 }
