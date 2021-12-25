@@ -18,7 +18,7 @@ The first step focuses on Django setup and models.
 
 Total Time Taken: 50 minutes
 
-####N.B:  Added the .env file in git-repository as it is an interview project. Never include .env file in repository as it includes sensitive information
+### N.B:  Added the .env file in git-repository as it is an interview project. Never include .env file in repository as it includes sensitive information
 
 ## Step 2
 
