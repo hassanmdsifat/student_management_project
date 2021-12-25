@@ -21,12 +21,8 @@ class SchoolViewSet(viewsets.ModelViewSet):
 
 class StudentViewSet(viewsets.ModelViewSet):
     permission_classes = [permissions.AllowAny]
+    serializer_class = StudentSerializer
     queryset = Student.objects.select_related('school').all()
     filter_backends = [DjangoFilterBackend, filters.SearchFilter]
     filterset_fields = ['gender', 'school']
     search_fields = ['first_name', 'last_name', 'school__name']
-
-    def get_serializer_class(self):
-        if self.action == 'list' or self.action == 'retrieve':
-            return StudentSerializer
-        return StudentSerializer
