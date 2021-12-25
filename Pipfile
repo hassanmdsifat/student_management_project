@@ -11,6 +11,7 @@ psycopg2-binary = "*"
 djangorestframework = "*"
 markdown = "*"
 django-filter = "*"
+faker = "*"
 
 [dev-packages]
 

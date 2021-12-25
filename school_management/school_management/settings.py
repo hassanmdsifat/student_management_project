@@ -31,6 +31,7 @@ DJANGO_APPS = [
 LOCAL_APPS = [
     'school.apps.SchoolConfig',
     'domain',
+    'package',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS
